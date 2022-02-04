@@ -1,3 +1,4 @@
+import React from 'react';
 import { GoodsItem } from './GoodsItem';
 
 function GoodsList(props) {
@@ -6,7 +7,6 @@ function GoodsList(props) {
         removeFromCart = Function.prototype,
         addToCart = Function.prototype,
         order = [],
-        itemInCart,
     } = props;
 
     if (!goods.length) {

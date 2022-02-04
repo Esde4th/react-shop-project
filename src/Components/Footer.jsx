@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Footer() {
     return (
         <footer className='page-footer deep-purple lighten-3 '>
@@ -6,7 +8,8 @@ function Footer() {
                     © {new Date().getFullYear()} Copyright Text
                     <a
                         className='deep-purple-text text-lighten-5 right'
-                        href='#'
+                        href='https://github.com/Esde4th/react-shop-project'
+                        target='_blank'
                     >
                         Repo
                     </a>
